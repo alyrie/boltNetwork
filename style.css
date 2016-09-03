@@ -1,0 +1,149 @@
+html, body {
+        background-image:url(https://s3.amazonaws.com/codecademy-content/projects/bolt-network/diagmonds_@2X.png);
+        background-size:141px 142px;  
+        font-family:"Oxygen"; 
+        font-weight:300; 
+        margin: 0;
+        padding: 0;
+      }
+
+.jumbotron .btn {
+        color:#0393ff;
+        background:transparent;
+        border:1px solid #0393ff;
+        border-radius:2px; 
+        padding:8px 20px;
+}
+
+.btn:hover {
+        color:#fff;
+        background-color:#0393ff;
+}
+
+h2 {
+  color: #0393FF;
+  font-weight: 10px;
+}
+
+p {
+  color: white;
+  font-weight: 10px;
+}
+
+h4 {
+  color: white;
+}
+
+/*---Jumbotron / Header --*/
+
+.jumbotron {
+  background: black;
+}
+
+.jumbotron img {
+  width: 150px;
+}
+
+.jumbotron a {
+  text-decoration: none;
+}
+
+.colorlink {
+  color: #0393FF;
+  border: 1px solid #0393FF;
+  text-decoration: none;
+}
+
+.colorlink:hover {
+  background-color: #0393FF;
+  color: white;
+}
+
+.whitelink {
+  color: white;
+  text-decoration: none;
+}
+
+.header li {
+  display: inline;
+  padding: 15px;
+}
+
+.container {
+  max-width: 970px;
+}
+
+/*---Main --*/
+.supporting,.main, .feature {
+  text-align: center;
+}
+
+.main h1 {
+  color: white;
+  margin: 60px;
+}
+
+.main li {
+  list-style-type: none;
+  padding: 10px 0;
+}
+
+.form-control {
+        background:transparent; 
+        border:0px; 
+        border-radius:0; 
+        border-bottom:1px solid #fff;
+        color:#fff;
+        font-size:18px; 
+        margin:80px 20px; 
+        width:100%;
+      }
+
+
+/*--Supporting--*/
+
+.supporting .thumbnail {
+        background:transparent; 
+        border: none;
+        padding: 0;
+      }
+
+
+/*--Feature--*/
+
+ .feature {
+        background: url("feature.jpg") no-repeat center center;
+        background-size: cover; 
+        height: 380px;
+        padding: 100px 0 0 0;
+      }
+
+
+/*--Footer--*/
+
+.footer {
+  background-color: black;
+  padding: 80px;
+  text-align: left;
+}
+
+.footer h4 {
+        color:#fff;
+        font-size:18px;
+        font-weight:300;  
+      
+}
+
+.footer ul {
+        color:#0393ff; 
+        list-style:none;
+        padding-left:0px;  
+      }
+
+li:hover {
+  color: white;
+}
+
+a:hover {
+  text-decoration: none;
+}
